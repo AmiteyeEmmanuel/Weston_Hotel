@@ -147,6 +147,42 @@ padding: 10rem 0;
     }
   }
 } 
+@media (width:820px), (width: 912px) {
+  min-height:50vh;
+}
+
+@media screen and (min-width:280px) and (max-width:1080px) {
+  margin-top: -5rem;
+  .contact{
+    margin: 1rem;
+    padding: 0 1rem;
+    &__title {
+      margin: 0;
+      text-align: center;
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+      }
+      h2{
+        font-size: 1.5rem;
+      }
+    }
+
+    &__data {
+      grid-template-columns: 1fr;
+      margin: 0;
+      p {
+        text-align: left;
+      }
+    }
+    &__form {
+      button {
+        height: 7rem;
+      } 
+    }
+  }
+}
+
 `
 
 export default Contact

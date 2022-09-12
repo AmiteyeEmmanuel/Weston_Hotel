@@ -65,7 +65,7 @@ function Home() {
 }
 
 const Section = styled.section`
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${home}) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url(${home}) no-repeat;
   min-height: 90vh;
   background-size: cover;
   position: relative;
@@ -98,7 +98,7 @@ const Section = styled.section`
           text-align: center;
           line-height:1.5rem;
           font-style: 1.3rem;
-          font-size: 1.2rem;
+          font-size: 1rem;
         }
       }
     }

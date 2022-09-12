@@ -79,7 +79,7 @@ padding: 5rem 1rem;
   text-align: center;
   border: 1px solid #fff;
   border-radius: 20px;
-  padding: 5rem 7rem 5rem 11.5rem;
+  padding: 5rem 7rem 5rem 7rem;
   .blog{
     display: flex;
     flex-direction: column;
