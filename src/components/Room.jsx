@@ -10,21 +10,20 @@ import room8 from  "../assets/Room8.jpg";
 import room9 from  "../assets/Room9.jpg";
 import { useScroll } from "../components/useScroll";
 import { motion } from 'framer-motion';
-import { roomAnimation } from "../animation";
 
 function Room() {
   const [element, controls] = useScroll();
   return(
   <Section id='room' ref={element}>
     <div className="grid">
-      <motion.div variants={roomAnimation} animate= {controls}  transition = {{ delay: 0.04, type: "tween", duration: 0.7}}className="child-one grid-box"> </motion.div>
-      <motion.div variants={roomAnimation} animate= {controls}  transition = {{ delay: 0.04, type: "tween", duration: 0.7}}className="child-two grid-box"> </motion.div>
-      <motion.div variants={roomAnimation} animate= {controls}  transition = {{ delay: 0.04, type: "tween", duration: 0.7}}className="child-three grid-box"> </motion.div>
-      <motion.div variants={roomAnimation} animate= {controls}  transition = {{ delay: 0.04, type: "tween", duration: 0.7}}className="child-four grid-box"> </motion.div>
-      <motion.div variants={roomAnimation} animate= {controls}  transition = {{ delay: 0.04, type: "tween", duration: 0.7}}className="child-five grid-box"> </motion.div>
-      <motion.div variants={roomAnimation} animate= {controls}  transition = {{ delay: 0.04, type: "tween", duration: 0.7}}className="child-six grid-box"> </motion.div>
-      <motion.div variants={roomAnimation} animate= {controls}  transition = {{ delay: 0.04, type: "tween", duration: 0.7}}className="child-seven grid-box"> </motion.div>
-      <motion.div variants={roomAnimation} animate= {controls}  transition = {{ delay: 0.04, type: "tween", duration: 0.7}}className="child-eight grid-box"> </motion.div>
+      <motion.div className="child-one grid-box"> </motion.div>
+      <motion.div className="child-two grid-box"> </motion.div>
+      <motion.div className="child-three grid-box"> </motion.div>
+      <motion.div className="child-four grid-box"> </motion.div>
+      <motion.div className="child-five grid-box"> </motion.div>
+      <motion.div className="child-six grid-box"> </motion.div>
+      <motion.div className="child-seven grid-box"> </motion.div>
+      <motion.div className="child-eight grid-box"> </motion.div>
     </div>
   </Section> 
   );

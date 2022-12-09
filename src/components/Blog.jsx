@@ -75,7 +75,7 @@ padding: 5rem 1rem;
   grid-template-columns: repeat(3, 1fr);
   align-content: center;
   gap: 3rem;
-  margin: 5rem 15rem;
+  margin: 5rem 19rem;
   text-align: center;
   border: 1px solid #fff;
   border-radius: 20px;
